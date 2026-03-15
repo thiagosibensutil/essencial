@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Essencial Personalizados</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🎁 Essencial Personalizados</h1>
+<p>Presentes personalizados para qualquer ocasião</p>
+</header>
+
+<section class="produtos">
+
+<div class="produto">
+<img src="https://via.placeholder.com/200">
+<h3>Almofada Personalizada</h3>
+<p>R$39,90</p>
+<button>Comprar</button>
+</div>
+
+<div class="produto">
+<img src="https://via.placeholder.com/200">
+<h3>Caneca Personalizada</h3>
+<p>R$29,90</p>
+<button>Comprar</button>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 - Essencial Personalizados</p>
+</footer>
+
+</body>
+</html>
+
+.estrelas{
+color:gold;
+font-size:18px;
+margin:5px 0;
+}
+.busca{
+margin-top:20px;
+}
+
+.busca input{
+padding:10px;
+width:250px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+.capa img{
+width:100%;
+height:300px;
+object-fit:cover;
+display:block;
+}
+.capa img{
+width:100%;
+height:300px;
+object-fit:cover;
+display:block;
+}
+/* versão celular */
+@media (max-width:600px){
+
+header{
+padding:20px;
+}
+
+.produtos{
+flex-direction:column;
+align-items:center;
+}
+
+.produto{
+width:90%;
+}
+
+.busca input{
+width:80%;
+}
+
+.capa img{
+height:200px;
+}
+
+}
